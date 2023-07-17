@@ -57,6 +57,24 @@ nav > ul > li{
     width: 100%;
     margin-top: 25px;
   }
+
+  /*main start*/
+  /*teams style*/
+  .teams-container{
+    display: flex;
+    align-items: center;
+  }
+  .teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+ .teams-content{
+  padding-left: 100px;
+  padding-right: 50px;
+ }
+
+
   /* Responsive media quiry*/
   /*mobile device*/
    @media screen and (max-width:576px){
@@ -77,4 +95,4 @@ nav > ul > li{
             flex-direction: column;
           }
     }
-  
+
